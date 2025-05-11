@@ -1,1 +1,0 @@
-# trace-lab-qa-assignment
