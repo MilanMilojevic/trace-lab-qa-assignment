@@ -1,4 +1,9 @@
-
 node_modules/
-test-results/
-videos/
+allure-results/
+allure-report/
+*.mp4
+*.zip
+*.exe
+*.dll
+*.log
+.vscode/
