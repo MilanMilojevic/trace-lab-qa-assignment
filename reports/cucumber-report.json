@@ -1,0 +1,67 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "registration-stuff;filling-in-registration-form",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Filling in Registration form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 361414299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open EtherScan registration page",
+            "match": {
+              "location": "features\\step_definitions\\step_definitions.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2072536299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I fill registration form",
+            "match": {
+              "location": "features\\step_definitions\\step_definitions.js:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5152900,
+              "error_message": "locator.fill: value: expected string, got undefined\n    at RegistrationPage.fillRegistrationForm (D:\\Projects\\Playwright Framework\\etherscan-playwright\\etherscan-tests\\pages\\RegistrationPage.js:29:25)\n    at CustomWorld.<anonymous> (D:\\Projects\\Playwright Framework\\etherscan-playwright\\etherscan-tests\\features\\step_definitions\\step_definitions.js:12:28)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 183577699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "registration-stuff",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Registration stuff",
+    "tags": [],
+    "uri": "features\\etherScanSuite.feature"
+  }
+]
