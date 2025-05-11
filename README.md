@@ -13,4 +13,4 @@ npx playwright test
 ```
 
 ## 🔐 CAPTCHA Notice
-This test requires **manual CAPTCHA completion**. The browser will pause at that step.
+This test requires **manual CAPTCHA completion**. 
